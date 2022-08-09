@@ -22,12 +22,12 @@
 ``jobs:``
 **Here we're going to define our main jobs that we're going to go through for deploying**
 
-## `` Jobs: ``
+## 📗 `` Jobs: ``
 
 Under the jobs section we can find many actions like **Build** , **Test** etc...
 
 each of this actions needs tasks to be done so it can run successfully, for that we're going now to define the basics of each step
-### `` Build: ``
+### 🔲 `` Build: ``
 It is the first stage we need to go with, to install the orbs and the main packages then building the App.
 
     build:
@@ -65,7 +65,7 @@ Is the required steps to be done to setup/install our apps
 
 you will use the `- run` step in the same way for each action like ( __api:install__ , __frontend:build__ and __api:build__)
 
-### `` Test: ``
+### 🔲 `` Test: ``
 It's the second stage we need to run after building our application to test it.
 
     test:
@@ -81,7 +81,7 @@ It's the second stage we need to run after building our application to test it.
 - We need first to choose an executer ( _docker_ ) we can use the current image using `image: cimg@base:current`
 - We need to define what scripts to run for the **test** stage into the _steps_, the same as we done before at the **build** stage
 
-### `` Deploy: ``
+### 🔲 `` Deploy: ``
 It is the third stage we need to go with, to deploy our code using the CI/CD
 
     deploy:
@@ -104,7 +104,7 @@ It is the third stage we need to go with, to deploy our code using the CI/CD
 
 at this point we can say we made our config file ready, the next step is how we're going to call stages and how it can run
 
-## `` Workflows: ``
+## 🔲 `` Workflows: ``
 Here we can now run our predefined actions as stages, in any order we need it to run at.
 
     workflows:
