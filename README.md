@@ -142,6 +142,7 @@ Here we can now run our predefined actions as stages, in any order we need it to
 
 1) Firstly we're going to add our App to a GitHub Repo
   - You need to go to your project main folder then open the CLI and use the fellow commands:
+  
         git init
         git add .
         git commit -m 'init'
