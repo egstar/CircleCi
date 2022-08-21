@@ -172,4 +172,4 @@ almost DONE, now you have passed almost everything, it should now work and succe
 otherwise you can click on the failure and check the reason to fix it, and after fix you can re-run the same process from where it failed or from scratch
 
 ---
-Finally, i wish if this fast walk through can help you to find your answers, and if you need further help just send me a direct message through _[WhatsApp](https://wa.me/201102423786?msg=About+CircleCi)_ or _[Messenger](https://m.me/bori0o)_
+Finally, i wish if this fast walk through can help you to find your answers, and if you need further help just send me a direct message.
